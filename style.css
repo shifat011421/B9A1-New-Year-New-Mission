@@ -103,10 +103,100 @@ header {
   letter-spacing: 7px;
   width: 640px;
 }
-.party-place {
-  height: 482px;
-  padding: 100px 386px 214px 385px;
-  background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-  margin: 120px;
+.party-place-bg {
+  height: 450px;
+  padding: 100px 386px 0px 385px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(132, 75, 75, 0) 100%
+  );
+  margin: 90px 0px;
   border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 45px;
+}
+
+.party-place {
+  color: #070211;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.party-place span {
+  color: red;
+}
+.join-button {
+  padding: 16px 32px;
+  background-color: #f00;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 8px;
+}
+.upcoming-offer-section {
+  display: flex;
+  align-items: center;
+}
+.offer-section {
+  margin-right: 100px;
+  width: 350px;
+  text-align: left;
+}
+.offer-section h3 {
+  font-size: 24px;
+  color: #f00;
+  font-weight: 500;
+}
+
+.offer-section h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #070211;
+  text-transform: capitalize;
+}
+.offer-section p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(7, 2, 17, 0.6);
+  line-height: 32px;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.offer-image {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+  border: 15px solid #f00;
+}
+
+.year-update {
+  margin-left: 100px;
+  width: 275px;
+}
+
+.year-update h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #f00;
+}
+
+.year-update p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(7, 2, 17, 0.6);
+  margin-bottom: 40px;
+}
+.discount-section {
+  margin: 120px auto;
+  height: px;
 }
